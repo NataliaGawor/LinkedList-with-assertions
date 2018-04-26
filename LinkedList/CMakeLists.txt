@@ -3,4 +3,4 @@ project(LinkedList)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(LinkedList Sources/main.cpp Headres/el.h Sources/List.cpp Headres/List.h Sources/el.cpp)
+add_executable(LinkedList Sources/main.cpp Headres/el.h Sources/LinkedList.cpp Headres/LinkedList.h Sources/el.cpp)

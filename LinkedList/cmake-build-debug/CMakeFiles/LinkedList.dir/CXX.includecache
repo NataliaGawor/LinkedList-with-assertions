@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/Headres/LinkedList.h
+iostream
+-
+el.h
+E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/Headres/el.h
+
+E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/Headres/el.h
+
+E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/Sources/LinkedList.cpp
+../Headres/LinkedList.h
+E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/Headres/LinkedList.h
+
+E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/Sources/el.cpp
+../Headres/el.h
+E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/Headres/el.h
+
+E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/Sources/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+sstream
+-
+cctype
+-
+../Headres/LinkedList.h
+E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/Headres/LinkedList.h
+cassert
+-
+

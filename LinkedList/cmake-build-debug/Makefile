@@ -122,32 +122,32 @@ LinkedList/fast:
 	$(MAKE) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/build
 .PHONY : LinkedList/fast
 
-Sources/List.obj: Sources/List.cpp.obj
+Sources/LinkedList.obj: Sources/LinkedList.cpp.obj
 
-.PHONY : Sources/List.obj
+.PHONY : Sources/LinkedList.obj
 
 # target to build an object file
-Sources/List.cpp.obj:
-	$(MAKE) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/Sources/List.cpp.obj
-.PHONY : Sources/List.cpp.obj
+Sources/LinkedList.cpp.obj:
+	$(MAKE) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/Sources/LinkedList.cpp.obj
+.PHONY : Sources/LinkedList.cpp.obj
 
-Sources/List.i: Sources/List.cpp.i
+Sources/LinkedList.i: Sources/LinkedList.cpp.i
 
-.PHONY : Sources/List.i
+.PHONY : Sources/LinkedList.i
 
 # target to preprocess a source file
-Sources/List.cpp.i:
-	$(MAKE) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/Sources/List.cpp.i
-.PHONY : Sources/List.cpp.i
+Sources/LinkedList.cpp.i:
+	$(MAKE) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/Sources/LinkedList.cpp.i
+.PHONY : Sources/LinkedList.cpp.i
 
-Sources/List.s: Sources/List.cpp.s
+Sources/LinkedList.s: Sources/LinkedList.cpp.s
 
-.PHONY : Sources/List.s
+.PHONY : Sources/LinkedList.s
 
 # target to generate assembly for a file
-Sources/List.cpp.s:
-	$(MAKE) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/Sources/List.cpp.s
-.PHONY : Sources/List.cpp.s
+Sources/LinkedList.cpp.s:
+	$(MAKE) -f CMakeFiles\LinkedList.dir\build.make CMakeFiles/LinkedList.dir/Sources/LinkedList.cpp.s
+.PHONY : Sources/LinkedList.cpp.s
 
 Sources/el.obj: Sources/el.cpp.obj
 
@@ -212,9 +212,9 @@ help:
 	@echo ... edit_cache
 	@echo ... LinkedList
 	@echo ... rebuild_cache
-	@echo ... Sources/List.obj
-	@echo ... Sources/List.i
-	@echo ... Sources/List.s
+	@echo ... Sources/LinkedList.obj
+	@echo ... Sources/LinkedList.i
+	@echo ... Sources/LinkedList.s
 	@echo ... Sources/el.obj
 	@echo ... Sources/el.i
 	@echo ... Sources/el.s

@@ -5,18 +5,16 @@
 #ifndef LINKEDLIST_LIST_H
 #define LINKEDLIST_LIST_H
 
-
+#include <iostream>
 #include "el.h"
 
-class List {
-    int minVal;
-    int maxVal;
+class LinkedList {
     el *head;
     el *tail;
-
 public:
-    List(int minVal, int maxVal); //okreslenie zakresu
-    el* add(int a);
+    LinkedList();
+    void add(double a);
+    void removeVal(double val);
     void removeList();
     void showRightToLeft();
     void showLeftToRight();

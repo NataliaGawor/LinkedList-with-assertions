@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LinkedList.dir/Sources/main.cpp.obj"
-  "CMakeFiles/LinkedList.dir/Sources/List.cpp.obj"
+  "CMakeFiles/LinkedList.dir/Sources/LinkedList.cpp.obj"
   "CMakeFiles/LinkedList.dir/Sources/el.cpp.obj"
   "LinkedList.pdb"
   "LinkedList.exe"

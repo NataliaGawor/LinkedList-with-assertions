@@ -6,12 +6,11 @@
 #define LINKEDLIST_EL_H
 
 struct el {
-    int v;
+    double v;
     el *next;
     el *previous;
     el();
-    el(int v);
-    el(int v, el *next, el *previous);
+    el(double v);
 };
 
 #endif //LINKEDLIST_EL_H

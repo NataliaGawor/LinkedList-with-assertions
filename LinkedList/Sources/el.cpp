@@ -11,6 +11,5 @@
 
 el::el() : next(nullptr), previous(nullptr) {}
 
-el::el(int v) : v(v), next(nullptr), previous(nullptr) {}
+el::el(double v) : v(v), next(nullptr), previous(nullptr) {}
 
-el::el(int v, el *next, el *previous) : v(v), next(next), previous(previous) {}
