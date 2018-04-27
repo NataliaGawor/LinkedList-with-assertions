@@ -4,6 +4,7 @@
 #include <sstream>
 #include <cctype>
 #include "../Headres/LinkedList.h"
+#define NDEBUG
 #include <cassert>
 
 using namespace std;
@@ -21,7 +22,6 @@ void ignoreWhiteMarks(istream& in) {
         in.ignore();
 }
 
-
 int main(int argc, char *argv[])
 {
     LinkedList *linkedList = new LinkedList();
@@ -36,12 +36,17 @@ int main(int argc, char *argv[])
     linkedList->showLeftToRight();
     cout << endl;
 
-    linkedList->removeList();
+    linkedList->add(5.2);
     linkedList->showLeftToRight();
-    cout << endl<< "koniec"<<endl;
+    cout << endl;
+
+  //  linkedList->removeList();
+  //  cout<<"Lista po usunieciu  :";
+  //  linkedList->showLeftToRight();
+//    cout << endl<< "end"<<endl;
 
     string fileName = argv[1];
-    cout << "file: " << fileName << endl;
+  //  cout << "file: " << fileName << endl;
     double a2,a3;
 
     a2 = stringToValue<double>(argv[2]);
@@ -50,8 +55,8 @@ int main(int argc, char *argv[])
     double min = a2;
     double max = a3;
 
-    cout << "MIN: " << min << endl;
-    cout << "MAX: " << max << endl;
+   // cout << "MIN: " << min << endl;
+   // cout << "MAX: " << max << endl;
 
     string value;
     char what;
@@ -63,11 +68,11 @@ int main(int argc, char *argv[])
     istream plik(fb);
     if (plik) //check if file open
     {
-        cout << "file is open" << endl;
+      //  cout << "file is open" << endl;
         while (!plik.eof()) {
             ignoreWhiteMarks(plik);
             what = plik.peek(); //podglądamy co jest w strumieniu
-            cout << what << "<- what is inside"<< endl;
+           // cout << what << "<- what is inside"<< endl;
             if (isdigit(what)) {
                 plik >> value;
                 cout << value << "<- value from file"<< endl;
@@ -76,14 +81,12 @@ int main(int argc, char *argv[])
                 assert(d>min);
                 assert(d<max);
 
-
                 // add element to list
             }
             else {
                 plik >> str;
-                cout << str << "<- sth wired"<< endl;
+              //  cout << str << "<- sth wired"<< endl;
             }
-
         }
         fb->close();
     }

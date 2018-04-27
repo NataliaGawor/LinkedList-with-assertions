@@ -18,7 +18,7 @@ public:
     void removeList();
     void showRightToLeft();
     void showLeftToRight();
-
+    int size();
 };
 
 
