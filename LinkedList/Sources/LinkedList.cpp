@@ -2,7 +2,7 @@
 // Created by Natalia on 26.04.2018.
 //
 
-#define NDEBUG
+//#define NDEBUG
 #include <assert.h>
 #include "../Headres/LinkedList.h"
 LinkedList::LinkedList() : head(nullptr), tail(nullptr) {}
@@ -17,29 +17,29 @@ void LinkedList::add(double a) {
         head = tail = e;
     }
     else{
-        el *curent = head;
+        el *current = head;
 
         // set current as last element or bigger than e
-        while(curent->next != nullptr && curent->v <= e->v)
-            curent = curent->next;
+        while(current->next != nullptr && current->v <= e->v)
+            current = current->next;
 
         // add after last element
-        if(curent->next == nullptr && curent->v < e->v){
-            curent->next = e;
-            e->previous = curent;
+        if(current->next == nullptr && current->v < e->v){
+            current->next = e;
+            e->previous = current;
             e->next = nullptr;
             tail = e;
         } // add in the middle of list but before current
-        else if (curent->previous != nullptr){
-            curent->previous->next = e;
-            e->previous = curent->previous;
-            e->next = curent;
-            curent->previous = e;
+        else if (current->previous != nullptr){
+            current->previous->next = e;
+            e->previous = current->previous;
+            e->next = current;
+            current->previous = e;
         } // add before first element
         else {
             e->previous = nullptr;
-            curent->previous = e;
-            e->next = curent;
+            current->previous = e;
+            e->next = current;
             head = e;
         }
     }

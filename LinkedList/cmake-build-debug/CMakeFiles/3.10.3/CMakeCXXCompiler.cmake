@@ -1,7 +1,7 @@
-set(CMAKE_CXX_COMPILER "C:/MinGW/bin/g++.exe")
+set(CMAKE_CXX_COMPILER "E:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
-set(CMAKE_CXX_COMPILER_VERSION "6.3.0")
+set(CMAKE_CXX_COMPILER_VERSION "7.3.0")
 set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_CXX_COMPILER_WRAPPER "")
 set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "14")
@@ -17,11 +17,11 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "C:/MinGW/bin/ar.exe")
-set(CMAKE_CXX_COMPILER_AR "C:/MinGW/bin/gcc-ar.exe")
-set(CMAKE_RANLIB "C:/MinGW/bin/ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "C:/MinGW/bin/gcc-ranlib.exe")
-set(CMAKE_LINKER "C:/MinGW/bin/ld.exe")
+set(CMAKE_AR "E:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/ar.exe")
+set(CMAKE_CXX_COMPILER_AR "E:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/gcc-ar.exe")
+set(CMAKE_RANLIB "E:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "E:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/gcc-ranlib.exe")
+set(CMAKE_LINKER "E:/Program Files/mingw-w64/x86_64-7.3.0-posix-seh-rt_v5-rev0/mingw64/bin/ld.exe")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
 set(CMAKE_CXX_COMPILER_WORKS TRUE)
@@ -45,7 +45,7 @@ set(CMAKE_CXX_LINKER_PREFERENCE 30)
 set(CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES 1)
 
 # Save compiler ABI information.
-set(CMAKE_CXX_SIZEOF_DATA_PTR "4")
+set(CMAKE_CXX_SIZEOF_DATA_PTR "8")
 set(CMAKE_CXX_COMPILER_ABI "")
 set(CMAKE_CXX_LIBRARY_ARCHITECTURE "")
 
@@ -70,6 +70,6 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;mingw32;gcc_s;gcc;moldname;mingwex;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "C:/MinGW/lib/gcc/mingw32/6.3.0;C:/MinGW/lib/gcc;C:/MinGW/mingw32/lib;C:/MinGW/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

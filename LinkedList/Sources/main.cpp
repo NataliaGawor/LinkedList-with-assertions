@@ -4,7 +4,6 @@
 #include <sstream>
 #include <cctype>
 #include "../Headres/LinkedList.h"
-#define NDEBUG
 #include <cassert>
 
 using namespace std;
@@ -25,75 +24,43 @@ void ignoreWhiteMarks(istream& in) {
 int main(int argc, char *argv[])
 {
     LinkedList *linkedList = new LinkedList();
-
-    linkedList->add(2.9);
-    linkedList->add(5.9);
-    linkedList->add(5.9);
-    linkedList->add(1.9);
-    linkedList->add(6.9);
-    linkedList->add(5.9);
-
-    linkedList->showLeftToRight();
-    cout << endl;
-
-    linkedList->add(5.2);
-    linkedList->showLeftToRight();
-    cout << endl;
-
-  //  linkedList->removeList();
-  //  cout<<"Lista po usunieciu  :";
-  //  linkedList->showLeftToRight();
-//    cout << endl<< "end"<<endl;
-
     string fileName = argv[1];
-  //  cout << "file: " << fileName << endl;
-    double a2,a3;
+    double min = stringToValue<double>(argv[2]);
+    double max = stringToValue<double>(argv[3]);
 
-    a2 = stringToValue<double>(argv[2]);
-    a3 = stringToValue<double>(argv[3]);
-
-    double min = a2;
-    double max = a3;
-
-   // cout << "MIN: " << min << endl;
-   // cout << "MAX: " << max << endl;
+    cout<< "min: "<< min << endl;
+    cout<< "max: "<< max << endl;
 
     string value;
     char what;
     string str;
     filebuf* fb = new filebuf();
+
     assert(fb != NULL); //check memory allocation
 
     fb->open(fileName, ios_base::in);
+    assert(fb->is_open());
     istream plik(fb);
-    if (plik) //check if file open
-    {
-      //  cout << "file is open" << endl;
-        while (!plik.eof()) {
-            ignoreWhiteMarks(plik);
-            what = plik.peek(); //podglądamy co jest w strumieniu
-           // cout << what << "<- what is inside"<< endl;
-            if (isdigit(what)) {
-                plik >> value;
-                cout << value << "<- value from file"<< endl;
-                double d = stringToValue<double>(value);
-                cout << "VALUE: " << d << endl;
-                assert(d>min);
-                assert(d<max);
-
-                // add element to list
-            }
-            else {
-                plik >> str;
-              //  cout << str << "<- sth wired"<< endl;
-            }
+    while (!plik.eof()) {
+        ignoreWhiteMarks(plik);
+        what = plik.peek(); //check what is inside of stream
+        if (isdigit(what)) {
+            plik >> value;
+            double d = stringToValue<double>(value);
+            cout<< "add val: "<< d << endl;
+            assert(d>min);
+            assert(d<max);
+            linkedList->add(d);
         }
-        fb->close();
+        else {
+            plik >> str;
+        }
     }
-    else{
-        cout << "Error with open file";
-    }
+    fb->close();
 
+
+//    linkedList->showLeftToRight();
+//    linkedList->removeList();
     system("pause");
     return 0;
 }

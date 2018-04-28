@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe"
+CMAKE_COMMAND = "E:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe" -E remove -f
+RM = "E:\Program Files\JetBrains\CLion 2018.1.1\bin\cmake\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Weronika\Desktop\GitProjects\LinkedList-with-assertions\LinkedList
+CMAKE_SOURCE_DIR = "E:\C++ Projects\LinkedList\LinkedList-with-assertions\LinkedList"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Weronika\Desktop\GitProjects\LinkedList-with-assertions\LinkedList\cmake-build-debug
+CMAKE_BINARY_DIR = "E:\C++ Projects\LinkedList\LinkedList-with-assertions\LinkedList\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/LinkedList.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/LinkedList.dir/flags.make
 
 CMakeFiles/LinkedList.dir/Sources/main.cpp.obj: CMakeFiles/LinkedList.dir/flags.make
 CMakeFiles/LinkedList.dir/Sources/main.cpp.obj: ../Sources/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Weronika\Desktop\GitProjects\LinkedList-with-assertions\LinkedList\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LinkedList.dir/Sources/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinkedList.dir\Sources\main.cpp.obj -c C:\Users\Weronika\Desktop\GitProjects\LinkedList-with-assertions\LinkedList\Sources\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\C++ Projects\LinkedList\LinkedList-with-assertions\LinkedList\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LinkedList.dir/Sources/main.cpp.obj"
+	"E:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinkedList.dir\Sources\main.cpp.obj -c "E:\C++ Projects\LinkedList\LinkedList-with-assertions\LinkedList\Sources\main.cpp"
 
 CMakeFiles/LinkedList.dir/Sources/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkedList.dir/Sources/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Weronika\Desktop\GitProjects\LinkedList-with-assertions\LinkedList\Sources\main.cpp > CMakeFiles\LinkedList.dir\Sources\main.cpp.i
+	"E:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\C++ Projects\LinkedList\LinkedList-with-assertions\LinkedList\Sources\main.cpp" > CMakeFiles\LinkedList.dir\Sources\main.cpp.i
 
 CMakeFiles/LinkedList.dir/Sources/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedList.dir/Sources/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Weronika\Desktop\GitProjects\LinkedList-with-assertions\LinkedList\Sources\main.cpp -o CMakeFiles\LinkedList.dir\Sources\main.cpp.s
+	"E:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\C++ Projects\LinkedList\LinkedList-with-assertions\LinkedList\Sources\main.cpp" -o CMakeFiles\LinkedList.dir\Sources\main.cpp.s
 
 CMakeFiles/LinkedList.dir/Sources/main.cpp.obj.requires:
 
@@ -82,16 +82,16 @@ CMakeFiles/LinkedList.dir/Sources/main.cpp.obj.provides.build: CMakeFiles/Linked
 
 CMakeFiles/LinkedList.dir/Sources/LinkedList.cpp.obj: CMakeFiles/LinkedList.dir/flags.make
 CMakeFiles/LinkedList.dir/Sources/LinkedList.cpp.obj: ../Sources/LinkedList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Weronika\Desktop\GitProjects\LinkedList-with-assertions\LinkedList\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LinkedList.dir/Sources/LinkedList.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinkedList.dir\Sources\LinkedList.cpp.obj -c C:\Users\Weronika\Desktop\GitProjects\LinkedList-with-assertions\LinkedList\Sources\LinkedList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\C++ Projects\LinkedList\LinkedList-with-assertions\LinkedList\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LinkedList.dir/Sources/LinkedList.cpp.obj"
+	"E:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinkedList.dir\Sources\LinkedList.cpp.obj -c "E:\C++ Projects\LinkedList\LinkedList-with-assertions\LinkedList\Sources\LinkedList.cpp"
 
 CMakeFiles/LinkedList.dir/Sources/LinkedList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkedList.dir/Sources/LinkedList.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Weronika\Desktop\GitProjects\LinkedList-with-assertions\LinkedList\Sources\LinkedList.cpp > CMakeFiles\LinkedList.dir\Sources\LinkedList.cpp.i
+	"E:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\C++ Projects\LinkedList\LinkedList-with-assertions\LinkedList\Sources\LinkedList.cpp" > CMakeFiles\LinkedList.dir\Sources\LinkedList.cpp.i
 
 CMakeFiles/LinkedList.dir/Sources/LinkedList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedList.dir/Sources/LinkedList.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Weronika\Desktop\GitProjects\LinkedList-with-assertions\LinkedList\Sources\LinkedList.cpp -o CMakeFiles\LinkedList.dir\Sources\LinkedList.cpp.s
+	"E:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\C++ Projects\LinkedList\LinkedList-with-assertions\LinkedList\Sources\LinkedList.cpp" -o CMakeFiles\LinkedList.dir\Sources\LinkedList.cpp.s
 
 CMakeFiles/LinkedList.dir/Sources/LinkedList.cpp.obj.requires:
 
@@ -106,16 +106,16 @@ CMakeFiles/LinkedList.dir/Sources/LinkedList.cpp.obj.provides.build: CMakeFiles/
 
 CMakeFiles/LinkedList.dir/Sources/el.cpp.obj: CMakeFiles/LinkedList.dir/flags.make
 CMakeFiles/LinkedList.dir/Sources/el.cpp.obj: ../Sources/el.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Weronika\Desktop\GitProjects\LinkedList-with-assertions\LinkedList\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LinkedList.dir/Sources/el.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinkedList.dir\Sources\el.cpp.obj -c C:\Users\Weronika\Desktop\GitProjects\LinkedList-with-assertions\LinkedList\Sources\el.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="E:\C++ Projects\LinkedList\LinkedList-with-assertions\LinkedList\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LinkedList.dir/Sources/el.cpp.obj"
+	"E:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe"  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\LinkedList.dir\Sources\el.cpp.obj -c "E:\C++ Projects\LinkedList\LinkedList-with-assertions\LinkedList\Sources\el.cpp"
 
 CMakeFiles/LinkedList.dir/Sources/el.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkedList.dir/Sources/el.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Weronika\Desktop\GitProjects\LinkedList-with-assertions\LinkedList\Sources\el.cpp > CMakeFiles\LinkedList.dir\Sources\el.cpp.i
+	"E:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "E:\C++ Projects\LinkedList\LinkedList-with-assertions\LinkedList\Sources\el.cpp" > CMakeFiles\LinkedList.dir\Sources\el.cpp.i
 
 CMakeFiles/LinkedList.dir/Sources/el.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedList.dir/Sources/el.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Weronika\Desktop\GitProjects\LinkedList-with-assertions\LinkedList\Sources\el.cpp -o CMakeFiles\LinkedList.dir\Sources\el.cpp.s
+	"E:\Program Files\mingw-w64\x86_64-7.3.0-posix-seh-rt_v5-rev0\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "E:\C++ Projects\LinkedList\LinkedList-with-assertions\LinkedList\Sources\el.cpp" -o CMakeFiles\LinkedList.dir\Sources\el.cpp.s
 
 CMakeFiles/LinkedList.dir/Sources/el.cpp.obj.requires:
 
@@ -144,7 +144,7 @@ LinkedList.exe: CMakeFiles/LinkedList.dir/build.make
 LinkedList.exe: CMakeFiles/LinkedList.dir/linklibs.rsp
 LinkedList.exe: CMakeFiles/LinkedList.dir/objects1.rsp
 LinkedList.exe: CMakeFiles/LinkedList.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Weronika\Desktop\GitProjects\LinkedList-with-assertions\LinkedList\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable LinkedList.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="E:\C++ Projects\LinkedList\LinkedList-with-assertions\LinkedList\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable LinkedList.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LinkedList.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -163,6 +163,6 @@ CMakeFiles/LinkedList.dir/clean:
 .PHONY : CMakeFiles/LinkedList.dir/clean
 
 CMakeFiles/LinkedList.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Weronika\Desktop\GitProjects\LinkedList-with-assertions\LinkedList C:\Users\Weronika\Desktop\GitProjects\LinkedList-with-assertions\LinkedList C:\Users\Weronika\Desktop\GitProjects\LinkedList-with-assertions\LinkedList\cmake-build-debug C:\Users\Weronika\Desktop\GitProjects\LinkedList-with-assertions\LinkedList\cmake-build-debug C:\Users\Weronika\Desktop\GitProjects\LinkedList-with-assertions\LinkedList\cmake-build-debug\CMakeFiles\LinkedList.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "E:\C++ Projects\LinkedList\LinkedList-with-assertions\LinkedList" "E:\C++ Projects\LinkedList\LinkedList-with-assertions\LinkedList" "E:\C++ Projects\LinkedList\LinkedList-with-assertions\LinkedList\cmake-build-debug" "E:\C++ Projects\LinkedList\LinkedList-with-assertions\LinkedList\cmake-build-debug" "E:\C++ Projects\LinkedList\LinkedList-with-assertions\LinkedList\cmake-build-debug\CMakeFiles\LinkedList.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/LinkedList.dir/depend
 

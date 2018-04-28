@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Weronika/Desktop/GitProjects/LinkedList-with-assertions/LinkedList/Sources/LinkedList.cpp" "C:/Users/Weronika/Desktop/GitProjects/LinkedList-with-assertions/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/Sources/LinkedList.cpp.obj"
-  "C:/Users/Weronika/Desktop/GitProjects/LinkedList-with-assertions/LinkedList/Sources/el.cpp" "C:/Users/Weronika/Desktop/GitProjects/LinkedList-with-assertions/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/Sources/el.cpp.obj"
-  "C:/Users/Weronika/Desktop/GitProjects/LinkedList-with-assertions/LinkedList/Sources/main.cpp" "C:/Users/Weronika/Desktop/GitProjects/LinkedList-with-assertions/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/Sources/main.cpp.obj"
+  "E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/Sources/LinkedList.cpp" "E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/Sources/LinkedList.cpp.obj"
+  "E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/Sources/el.cpp" "E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/Sources/el.cpp.obj"
+  "E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/Sources/main.cpp" "E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/cmake-build-debug/CMakeFiles/LinkedList.dir/Sources/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

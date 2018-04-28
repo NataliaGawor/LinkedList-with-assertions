@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Weronika/Desktop/GitProjects/LinkedList-with-assertions/LinkedList/Headres/LinkedList.h
+E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/Headres/LinkedList.h
 iostream
 -
 el.h
-C:/Users/Weronika/Desktop/GitProjects/LinkedList-with-assertions/LinkedList/Headres/el.h
+E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/Headres/el.h
 
-C:/Users/Weronika/Desktop/GitProjects/LinkedList-with-assertions/LinkedList/Headres/el.h
+E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/Headres/el.h
 
-C:/Users/Weronika/Desktop/GitProjects/LinkedList-with-assertions/LinkedList/Sources/LinkedList.cpp
+E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/Sources/LinkedList.cpp
 assert.h
 -
 ../Headres/LinkedList.h
-C:/Users/Weronika/Desktop/GitProjects/LinkedList-with-assertions/LinkedList/Headres/LinkedList.h
+E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/Headres/LinkedList.h
 
-C:/Users/Weronika/Desktop/GitProjects/LinkedList-with-assertions/LinkedList/Sources/el.cpp
+E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/Sources/el.cpp
 ../Headres/el.h
-C:/Users/Weronika/Desktop/GitProjects/LinkedList-with-assertions/LinkedList/Headres/el.h
+E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/Headres/el.h
 
-C:/Users/Weronika/Desktop/GitProjects/LinkedList-with-assertions/LinkedList/Sources/main.cpp
+E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/Sources/main.cpp
 iostream
 -
 fstream
@@ -36,7 +36,7 @@ sstream
 cctype
 -
 ../Headres/LinkedList.h
-C:/Users/Weronika/Desktop/GitProjects/LinkedList-with-assertions/LinkedList/Headres/LinkedList.h
+E:/C++ Projects/LinkedList/LinkedList-with-assertions/LinkedList/Headres/LinkedList.h
 cassert
 -
 
